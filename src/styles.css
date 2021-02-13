@@ -1,6 +1,7 @@
 body {
   font-family: "Questrial", sans-serif;
   max-width: 900px;
+  text-align: center;
 }
 
 .container {
@@ -8,6 +9,8 @@ body {
   margin: 0 auto;
   background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   padding: 10px 10px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 5px 2px #ccc;
 }
 
 h1 {
@@ -63,6 +66,12 @@ p .fa-cloud-sun {
   text-align: center;
 }
 
+.current-weather-pic {
+  float: right;
+  width: 50%;
+  padding: 0 10px;
+}
+
 .currently {
   text-align: center;
 }
@@ -92,6 +101,11 @@ p .fa-cloud-sun {
   text-align: center;
 }
 
+.search-card {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
 .weather-discription {
   font-size: 30px;
   font-weight: 500;
